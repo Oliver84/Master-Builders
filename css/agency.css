@@ -175,8 +175,13 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
+<<<<<<< HEAD
     font-family: 'Open Sans', sans-serif, bold;
     color: #FFB367;
+=======
+    font-family: 'Exo', sans-serif; font-weight: 900;
+    color: #fed136;
+>>>>>>> 7715747ffddfb116fd09c1884098bb0feb0dec34
 }
 
 .navbar-default .navbar-brand:hover,
@@ -258,6 +263,10 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        color: transparent;
+        background-image: url(../img/logos/mblogo.png);
+        background-repeat: no-repeat;
+       
     }
 }
 
