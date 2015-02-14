@@ -245,7 +245,7 @@ fieldset[disabled] .btn-xl.active {
         transition: padding .3s;
     }
 
-    .navbar-default .navbar-brand {
+    .navbar-default  {
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
@@ -261,11 +261,11 @@ fieldset[disabled] .btn-xl.active {
         background-color: #222;
     }
 
-    .navbar-default.navbar-shrink .navbar-brand {
+    .navbar-default.navbar-shrink  {
         font-size: 1.5em;
         color: transparent;
-        background-image: url(../img/logos/mblogo.png);
-        background-repeat: no-repeat;
+        /* background-image: url(../img/logos/mblogo.png);
+        background-repeat: no-repeat; */
        
     }
 }
