@@ -9,6 +9,7 @@ body {
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+
 .text-muted {
     color: #777;
 }
@@ -307,7 +308,15 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
+.mblogo {
+    max-width: 100px;
+}
+
 @media(min-width:768px) {
+    .mblogo {
+    max-width: 150px;
+}
+
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
