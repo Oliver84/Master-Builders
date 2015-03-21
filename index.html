@@ -27,6 +27,7 @@
     
     <!-- Blueimp Gallery -->
     <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+    <link href="css/jquery.fs.zoomer.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -319,7 +320,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item" id="links2">
-                    <a href="img/projects/10st/10st_duplex_residential_construction_01.jpg" class="portfolio-link" data-toggle="modal">
+                    <a href="img/projects/10st/10st_duplex_residential_construction_01.jpg" class="portfolio-link img-zoom" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -751,6 +752,7 @@
     
     <!--Blueimp-->
     <script src="js/blueimp-gallery.min.js"></script>
+    <script src="js/jquery.fs.zoomer.js"></script>
     
     <script>
         document.getElementById('links').onclick = function (event) {
@@ -803,7 +805,7 @@
             blueimp.Gallery(links, options);
             };
          
-    </script>
+        </script>
         
    
 

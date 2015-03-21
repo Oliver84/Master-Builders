@@ -11,6 +11,8 @@
 
 /* global define, window, document */
 
+
+
 (function (factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
@@ -27,6 +29,7 @@
 }(function ($, Gallery) {
     'use strict';
 
+$(".img-zoom").pinchzoomer();
     // Global click handler to open links with data-gallery attribute
     // in the Gallery lightbox:
     $(document).on('click', '[data-gallery]', function (event) {
