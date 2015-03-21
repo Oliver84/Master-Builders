@@ -286,9 +286,9 @@ header {
 }
 
 header .intro-text {
-    padding-top: 10%;
+    padding-top: 100px;
     padding-bottom: 50px;
-    margin-top: 50vh; /*adujsts Header Text according to the window height*/
+    margin-top: 22%;
 }
 
 header .intro-text .intro-lead-in {
@@ -300,7 +300,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 5px;
+    margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
@@ -315,14 +315,10 @@ header .intro-text .intro-heading {
 @media(min-width:768px) {
     .mblogo {
     max-width: 150px;
-    
 }
-    header {
-        height: 100vh; /*adjusts header size depending on window height */
-    }
 
     header .intro-text {
-        padding-top: 30px;
+        padding-top: 10%;
         padding-bottom: 5%;
     }
 
@@ -600,8 +596,6 @@ section h3.section-subheading {
         text-align: left;
     }
 }
-
-
 
 @media(min-width:992px) {
     .timeline>li {
