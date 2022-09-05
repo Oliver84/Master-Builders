@@ -483,9 +483,6 @@
                     <a href="img/projects/medical_office/med_office02.jpg" title="Medical Office" class="portfolio-link hide" data-toggle="modal">
                         <img src="img/projects/medical_office/med_office02.jpg" class="img-responsive" alt="Medical Office">
                     </a>
-                    <a href="img/projects/medical_office/med_office02.jpg" title="Medical Office" class="portfolio-link hide" data-toggle="modal">
-                        <img src="img/projects/medical_office/med_office02.jpg" class="img-responsive" alt="Medical Office">
-                    </a>
                     <a href="img/projects/medical_office/med_office03.jpg" title="Medical Office" class="portfolio-link hide" data-toggle="modal">
                         <img src="img/projects/medical_office/med_office03.jpg" class="img-responsive" alt="Medical Office">
                     </a>
@@ -495,6 +492,54 @@
                     
                     <div class="portfolio-caption">
                         <h4>Medical Office</h4>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item" id="links7">
+                    <a href="img/projects/davie/FrontViewsm.png" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/projects/davie/FrontViewsm.png" class="img-responsive" alt="">
+                    </a>
+                    <!-- include the "hide" class for any thumbnais -->
+                    <a href="img/projects/davie/Entrysm.png" title="Medical Office" class="portfolio-link hide" data-toggle="modal">
+                        <img src="img/projects/davie/Entrysm.png" class="img-responsive" alt="Medical Office">
+                    </a>
+                    <a href="img/projects/davie/Foyersm.png" title="Medical Office" class="portfolio-link hide" data-toggle="modal">
+                        <img src="img/projects/davie/Foyersm.png" class="img-responsive" alt="Medical Office">
+                    </a>
+                    <a href="img/projects/davie/GrandRoom1sm.png" title="Medical Office" class="portfolio-link hide" data-toggle="modal">
+                        <img src="img/projects/davie/GrandRoom1sm.png" class="img-responsive" alt="Medical Office">
+                    </a>
+                    <a href="img/projects/davie/KitchentoLivingRmsm.png" title="Medical Office" class="portfolio-link hide" data-toggle="modal">
+                        <img src="img/projects/davie/KitchentoLivingRmsm.png" class="img-responsive" alt="Medical Office">
+                    </a>
+                    <a href="img/projects/davie/Kitchensm.png" title="Medical Office" class="portfolio-link hide" data-toggle="modal">
+                        <img src="img/projects/davie/Kitchensm.png" class="img-responsive" alt="Medical Office">
+                    </a>
+                    <a href="img/projects/davie/GrandRoom2sm.png" title="Medical Office" class="portfolio-link hide" data-toggle="modal">
+                        <img src="img/projects/davie/GrandRoom2sm.png" class="img-responsive" alt="Medical Office">
+                    </a>
+                    <a href="img/projects/davie/GuestRoomsm.png" title="Medical Office" class="portfolio-link hide" data-toggle="modal">
+                        <img src="img/projects/davie/GuestRoomsm.png" class="img-responsive" alt="Medical Office">
+                    </a>
+                    <a href="img/projects/davie/Bedroom3sm.png" title="Medical Office" class="portfolio-link hide" data-toggle="modal">
+                        <img src="img/projects/davie/Bedroom3sm.png" class="img-responsive" alt="Medical Office">
+                    </a>
+                    <a href="img/projects/davie/MasterBedroom2.png" title="Medical Office" class="portfolio-link hide" data-toggle="modal">
+                        <img src="img/projects/davie/MasterBedroom2.png" class="img-responsive" alt="Medical Office">
+                    </a>
+                    <a href="img/projects/davie/MasterBedroomsm.png" title="Medical Office" class="portfolio-link hide" data-toggle="modal">
+                        <img src="img/projects/davie/MasterBedroomsm.png" class="img-responsive" alt="Medical Office">
+                    </a>
+                    <a href="img/projects/davie/Backyard-1.png" title="Medical Office" class="portfolio-link hide" data-toggle="modal">
+                        <img src="img/projects/davie/Backyard-1.png" class="img-responsive" alt="Medical Office">
+                    </a>
+                    
+                    <div class="portfolio-caption">
+                        <h4>Residence in Davie</h4>
                     </div>
                 </div>
             </div>
@@ -825,6 +870,14 @@
             blueimp.Gallery(links, options);
             };
          document.getElementById('links6').onclick = function (event) {
+            event = event || window.event;
+            var target = event.target || event.srcElement,
+                link = target.src ? target.parentNode : target,
+                options = {index: link, event: event},
+                links = this.getElementsByTagName('a');
+            blueimp.Gallery(links, options);
+            };
+         document.getElementById('links7').onclick = function (event) {
             event = event || window.event;
             var target = event.target || event.srcElement,
                 link = target.src ? target.parentNode : target,
